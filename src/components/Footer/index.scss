@@ -1,0 +1,27 @@
+.f_operator {
+    height: 70px;
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+    .f_btn {
+        width: 120px;
+        height: 30px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: #e74c3c;
+        color: white;
+        cursor: pointer;
+    }
+
+    div {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+    }
+}
