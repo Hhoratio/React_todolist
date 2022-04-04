@@ -1,0 +1,126 @@
+.ipt_box {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    outline: none;
+    text-align: center;
+    width: 480px
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+    opacity: .9
+}
+
+:-ms-input-placeholder {
+    color: #999;
+    opacity: .9
+}
+
+::placeholder {
+    color: #999;
+    opacity: .9
+}
+
+.li {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 35px;
+    justify-content: space-between;
+    width: 480px
+}
+
+.li,
+.li label {
+    align-items: center;
+    display: flex
+}
+
+.li label {
+    justify-content: center;
+    margin-left: 10px
+}
+
+.li label span {
+    margin-left: 5px
+}
+
+.li .li_btn {
+    background: #e74c3c;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    height: 25px;
+    margin-right: 20px;
+    width: 50px
+}
+
+ul {
+    max-height: 180px;
+    overflow: auto;
+    overflow-y: overlay
+}
+
+.f_operator {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 480px
+}
+
+.f_operator .f_btn {
+    background: #e74c3c;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    width: 120px
+}
+
+.f_operator div {
+    height: 30px;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 150px
+}
+
+.f_operator div,
+.out_container {
+    align-items: center;
+    display: flex
+}
+
+.out_container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 500px
+}
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+:root {
+    font-size: 16px
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    width: 100vw
+}
